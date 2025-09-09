@@ -20,3 +20,5 @@
    s=`expr $p \* $t \* $r / 100`
    echo "The simple interest is: "
    echo $s
+   rounded_s=$(printf "%.2f" "$s")
+   echo "The simple interest is: $rounded_s"  
